@@ -1290,14 +1290,14 @@ button {
     max-width: 100%;
     height: auto;
     display: block;
-    border-radius: 50%;
+    border-radius: 100%;
   }
 </style>
 
 .logo {
   display: table;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto 2rem auto;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.08);
@@ -1307,8 +1307,8 @@ button {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
