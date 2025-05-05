@@ -1287,16 +1287,38 @@ button {
     margin: 0 auto 2rem auto;
   }
 	 .logo img {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     display: block;
     border-radius: 50%;
   }
 </style>
 
-		#header .logo .icon:before {
-			font-size: 2rem;
-		}
+.logo {
+  display: table;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 2rem auto;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.logo .image.fit {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.logo .image.fit img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
 
 	#header .content {
 		border-style: solid;
