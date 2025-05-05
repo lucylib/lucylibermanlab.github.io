@@ -1284,7 +1284,19 @@ button {
 		line-height: 5.5rem;
 		border: solid 1px #ffffff;
 		border-radius: 100%;
-	}
+		background-color: rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2rem auto;
+  }
+	 .logo img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+  }
+</style>
 
 		#header .logo .icon:before {
 			font-size: 2rem;
