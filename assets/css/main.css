@@ -1278,6 +1278,17 @@ button {
 			display: none;
 		}
 
+#header .logo::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 150px; /* Adjust this length as needed */
+  height: 1px;
+  background: #ffffff;
+  transform: translateY(-50%);
+}
+
 	#header .logo {
 		width: 10rem;
 		height: 10rem;
