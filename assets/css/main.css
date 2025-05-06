@@ -1263,10 +1263,10 @@ button {
 			content: '';
 			display: block;
 			position: absolute;
-			top: calc(-3.5rem - 1px);
-			left: calc(50% - 1px);
+			top: 100%;
+			left: 50%;
 			width: 1px;
-			height: calc(3.5rem + 1px);
+			height: 3rem;
 			background: #ffffff;
 		}
 
