@@ -1262,7 +1262,7 @@ button {
 		#header > *:before {
 			content: '';
 			display: block;
-			position: relative;
+			position: absolute;
 			top: calc(-3.5rem - 1px);
 			left: 50%;
 			transform: translateX(-50%);
