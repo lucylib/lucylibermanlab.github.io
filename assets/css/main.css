@@ -1259,7 +1259,7 @@ button {
 		margin-top: 3.5rem;
 	}
 
-		#header > *:after {
+		#header > *:before {
 			content: '';
 			display: block;
 			position: absolute;
