@@ -1288,45 +1288,8 @@ button {
 		line-height: 5.5rem;
 		border: solid 1px #ffffff;
 		border-radius: 100%;
-		background-color: rgba(255, 255, 255, 0.08);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 2rem auto;
-  }
-	 .logo img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 100%;
-  }
-</style>
-
-.logo {
-  display: table;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 2rem auto;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.08);
-}
-
-.logo .image.fit {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-
-.logo .image.fit img {
-  max-width: 70%;
-  height: auto;
-  border-radius: 50%;
-  display: inline-block;
-  vertical-align: middle;
-}
+	}
+ 
 
 #header .logo .icon:before {
   font-size: 2rem;
