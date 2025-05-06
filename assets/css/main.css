@@ -1283,9 +1283,9 @@ button {
 
 	#header .logo {
 		position: relative;
-		width: 10rem;
-		height: 10rem;
-		line-height: 5rem;
+		width: 5.5rem;
+		height: 5.5rem;
+		line-height: 5.5rem;
 		border: solid 1px #ffffff;
 		border-radius: 100%;
 		background-color: rgba(255, 255, 255, 0.08);
