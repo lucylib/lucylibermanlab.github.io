@@ -693,8 +693,14 @@ input[type="radio"] + label:before {
 	}
 
 		.image.main img {
-			width: 100%;
-		}
+width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0.5rem; /* optional: for rounded corners */
+}
+		
 
 	@media screen and (max-width: 736px) {
 
