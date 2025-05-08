@@ -1701,8 +1701,8 @@ button {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  width: 10rem;
-  height: 15rem;
+  width: 7rem;
+  height: 11rem;
   border-radius: 50%;
   overflow: hidden;
   z-index: 1000;
@@ -1715,4 +1715,5 @@ button {
   height: 100%;
   object-fit: contain;
   display: block;
+  background-color: white; 
 }
