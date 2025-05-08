@@ -1701,8 +1701,8 @@ button {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  width: 7rem;
-  height: 10rem;
+  width: 5rem;
+  height: 7rem;
   border-radius: 50%;
   overflow: hidden;
   z-index: 1000;
